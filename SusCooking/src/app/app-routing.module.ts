@@ -7,6 +7,9 @@ import { NonvegBodyComponent } from './nonveg-body/nonveg-body.component';
 import { StartersBodyComponent } from './starters-body/starters-body.component';
 import { BodyComponent } from './body/body.component';
 
+//recipe bodies
+
+import {StarterRecipeComponent} from './starters-body/starter-recipe/starter-recipe.component';
 /**
  * Routes tell the router which view to display 
  * when a user clicks a link or pastes a URL into 
@@ -19,6 +22,7 @@ import { BodyComponent } from './body/body.component';
 
  const routes: Routes = [
    {path:'', component: BodyComponent,pathMatch:'full'},
+   {path: 'starters-recipe', component:StarterRecipeComponent},
    {path: 'starters', component: StartersBodyComponent},
    {path: 'drinks', component: DrinksBodyComponent},
    {path: 'veg', component:VegBodyComponent},
