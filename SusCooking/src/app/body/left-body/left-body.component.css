@@ -1,0 +1,10 @@
+
+.main-image{
+    width: 50%;
+    height: auto;
+}
+
+.card {
+    min-height: 200px;
+    min-width: 190px;
+}

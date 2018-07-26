@@ -1,0 +1,32 @@
+.full-width-div {
+    
+    position: absolute;
+    width: 100%;
+    left: 0;
+    background: teal;
+}
+
+.main-image{
+    width: 50%;
+    height: auto;
+}
+
+
+.carousel .item {
+    height: 300px;
+    
+  }
+  
+  .item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 300px;
+      width: 100%;
+      
+  }
+
+  .card {
+    min-height: 200px;
+    min-width: 190px;
+}
