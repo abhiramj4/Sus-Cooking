@@ -23,6 +23,7 @@ import { StarterGalleryComponent } from './starters-body/starter-gallery/starter
 
 import { FormsModule }   from '@angular/forms';
 import { RecipeFilterPipe } from './header/recipe-filter.pipe';
+import { StarterRecipeComponent } from './starters-body/starter-recipe/starter-recipe.component';
 
 
 
@@ -41,6 +42,7 @@ import { RecipeFilterPipe } from './header/recipe-filter.pipe';
     StartersBodyComponent,
     StarterGalleryComponent,
     RecipeFilterPipe,
+    StarterRecipeComponent,
  
 
   ],
