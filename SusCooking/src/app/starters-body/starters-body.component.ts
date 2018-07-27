@@ -14,9 +14,12 @@ export class StartersBodyComponent implements OnInit {
   constructor(private recipeService: RecipeService) { }
 
   ngOnInit() {
+    
+    console.log("Starters body has generated!")
     this.recipeService.getRecipes()
-        .subscribe(data => this.recipes = data);
-
+    .subscribe(data => this.recipes = data);
+    
+    
   }
 
 }

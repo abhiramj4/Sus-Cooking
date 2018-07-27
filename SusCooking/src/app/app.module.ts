@@ -13,7 +13,7 @@ import { BodyComponent } from './body/body.component';
 import { LeftBodyComponent } from './body/left-body/left-body.component';
 import { RightBodyComponent } from './body/right-body/right-body.component';
 import { FooterComponent } from './footer/footer.component';
-import { AppRoutingModule } from './/app-routing.module';
+import { AppRoutingModule } from './header/app-routing.module';
 
 import { DrinksBodyComponent } from './drinks-body/drinks-body.component';
 import { VegBodyComponent } from './veg-body/veg-body.component';

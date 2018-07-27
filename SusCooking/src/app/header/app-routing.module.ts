@@ -1,15 +1,16 @@
 import { NgModule }             from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { DrinksBodyComponent } from './drinks-body/drinks-body.component';
-import { VegBodyComponent } from './veg-body/veg-body.component';
-import { NonvegBodyComponent } from './nonveg-body/nonveg-body.component';
-import { StartersBodyComponent } from './starters-body/starters-body.component';
-import { BodyComponent } from './body/body.component';
+import { DrinksBodyComponent } from '../drinks-body/drinks-body.component';
+import { VegBodyComponent } from '../veg-body/veg-body.component';
+import { NonvegBodyComponent } from '../nonveg-body/nonveg-body.component';
+import { StartersBodyComponent } from '../starters-body/starters-body.component';
+import { BodyComponent } from '../body/body.component';
 
 //recipe bodies
 
-import {StarterRecipeComponent} from './starters-body/starter-recipe/starter-recipe.component';
+import {StarterRecipeComponent} from '../starters-body/starter-recipe/starter-recipe.component';
+
 /**
  * Routes tell the router which view to display 
  * when a user clicks a link or pastes a URL into 

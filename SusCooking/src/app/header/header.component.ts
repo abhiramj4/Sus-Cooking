@@ -21,8 +21,7 @@ export class HeaderComponent implements OnInit {
   ngOnInit() {
    this.recipeService.getRecipes()
         .subscribe(data => this.recipes = data);
-  
-      
+ 
   }
 
   public getRandomRecipe(): string{

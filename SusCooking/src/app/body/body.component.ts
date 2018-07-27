@@ -21,12 +21,8 @@ export class BodyComponent implements OnInit {
    this.recipeService.getRecipes()
         .subscribe(data => this.recipes = data);
     console.log( 'This is the recipes ' + this.recipes);
-    //var testStuff = this.recipes;
-    
-    
+    //var testStuff = this.recipes; 
   }
-
-
 
  
   //to recieve data we need to subscribe to it
