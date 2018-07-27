@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import {RecipeService} from '../recipe.service';
-
 
 @Component({
   selector: 'app-starters-body',
@@ -9,17 +7,9 @@ import {RecipeService} from '../recipe.service';
 })
 export class StartersBodyComponent implements OnInit {
 
-  public recipes = [];
-
-  constructor(private recipeService: RecipeService) { }
+  constructor() { }
 
   ngOnInit() {
-    
-    console.log("Starters body has generated!")
-    this.recipeService.getRecipes()
-    .subscribe(data => this.recipes = data);
-    
-    
   }
 
 }

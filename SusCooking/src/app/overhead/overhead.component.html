@@ -1,0 +1,32 @@
+<!--
+  Should be the whole application
+-->
+
+  <!--
+    Header of the app
+  -->
+  <app-header *ngIf="recipes?.length > 0 && storedRecipes">
+
+  </app-header>
+
+  <!--
+    Body of the website, note that it is ALL
+    under <router-outlet>
+  -->
+
+  <div *ngIf="recipes?.length > 0 && storedRecipes">
+    <router-outlet>
+
+    </router-outlet>
+  </div>  
+
+  <br>
+  <!--
+  Footer of the website
+  -->
+  <app-footer>
+
+  </app-footer>
+
+
+<!-- Routed views go here-->

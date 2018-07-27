@@ -1,15 +1,11 @@
 import { NgModule }             from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { DrinksBodyComponent } from '../drinks-body/drinks-body.component';
-import { VegBodyComponent } from '../veg-body/veg-body.component';
-import { NonvegBodyComponent } from '../nonveg-body/nonveg-body.component';
-import { StartersBodyComponent } from '../starters-body/starters-body.component';
-import { BodyComponent } from '../body/body.component';
-
-//recipe bodies
-
-import {StarterRecipeComponent} from '../starters-body/starter-recipe/starter-recipe.component';
+import { DrinksBodyComponent } from './overhead/drinks-body/drinks-body.component';
+import { VegBodyComponent } from './overhead/veg-body/veg-body.component';
+import { NonvegBodyComponent } from './overhead/nonveg-body/nonveg-body.component';
+import { StartersBodyComponent } from './overhead/starters-body/starters-body.component';
+import { BodyComponent } from './overhead/body/body.component';
 
 /**
  * Routes tell the router which view to display 
@@ -23,7 +19,6 @@ import {StarterRecipeComponent} from '../starters-body/starter-recipe/starter-re
 
  const routes: Routes = [
    {path:'', component: BodyComponent,pathMatch:'full'},
-   {path: 'starters-recipe', component:StarterRecipeComponent},
    {path: 'starters', component: StartersBodyComponent},
    {path: 'drinks', component: DrinksBodyComponent},
    {path: 'veg', component:VegBodyComponent},

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {RecipeService} from '../recipe.service';
+import {RecipeService} from '../../recipe.service';
 
 
 @Component({
@@ -21,7 +21,8 @@ export class HeaderComponent implements OnInit {
   ngOnInit() {
    this.recipeService.getRecipes()
         .subscribe(data => this.recipes = data);
- 
+  
+      
   }
 
   public getRandomRecipe(): string{

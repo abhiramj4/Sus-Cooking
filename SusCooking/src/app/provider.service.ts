@@ -1,5 +1,4 @@
 import { Injectable } from '@angular/core';
-import {RecipeService} from '../app/recipe.service';
 
 @Injectable({
   providedIn: 'root'
@@ -8,13 +7,20 @@ import {RecipeService} from '../app/recipe.service';
 export class ProviderService {
 
   public data;
-  constructor(public service:RecipeService) {
-    this.service.getRecipes().subscribe(value =>{
-      this.data = value;
-    });
-   }
 
-  public getData(){
-    return this,this.data;
-  }
+  constructor() {
+
+      this.data = null;
+    }
+  
+    public storeRecipes(data):void{
+      this.data = data;
+    }
+
+    public getstoredRecipes(){
+      return this.data;
+    }
+
 }
+
+

@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { aRecipe } from '../../recipe';
+import { aRecipe } from '../../../recipe';
 
 @Component({
   selector: 'app-right-body',
