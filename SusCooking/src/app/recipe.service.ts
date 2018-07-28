@@ -12,7 +12,7 @@ export class RecipeService {
  
   private recipeUrl: string = "./assets/recipe.json"; //json file
 
-  getRecipes(): Observable<aRecipe[]>{
+  public getRecipes(): Observable<aRecipe[]>{
     //console.log(this.http.get<aRecipe[]>(this.recipeUrl));
     return this.http.get<aRecipe[]>(this.recipeUrl); //this is an array
     //note that this returns an observable

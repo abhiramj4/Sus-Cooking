@@ -7,6 +7,9 @@ import { NonvegBodyComponent } from './overhead/nonveg-body/nonveg-body.componen
 import { StartersBodyComponent } from './overhead/starters-body/starters-body.component';
 import { BodyComponent } from './overhead/body/body.component';
 
+import{ProviderService} from './provider.service';
+//import{RecipeService} from './recipe.service';
+
 /**
  * Routes tell the router which view to display 
  * when a user clicks a link or pastes a URL into 
@@ -18,16 +21,36 @@ import { BodyComponent } from './overhead/body/body.component';
  */
 
  const routes: Routes = [
-   {path:'', component: BodyComponent,pathMatch:'full'},
-   {path: 'starters', component: StartersBodyComponent},
-   {path: 'drinks', component: DrinksBodyComponent},
-   {path: 'veg', component:VegBodyComponent},
-   {path: 'nonveg', component:NonvegBodyComponent},
+   {
+     path:'', 
+     component: BodyComponent,
+     pathMatch:'full',
+     resolve:{recipes:ProviderService
+     }
+    },
+   {
+     path: 'starters', 
+     component: StartersBodyComponent,
+     resolve:{
+       recipes:ProviderService
+     }
+    },
+   {path: 'drinks', component: DrinksBodyComponent,resolve:{recipes:ProviderService
+  }},
+   {path: 'veg', component:VegBodyComponent,resolve:{recipes:ProviderService
+  }},
+   {path: 'nonveg', component:NonvegBodyComponent,resolve:{recipes:ProviderService
+  }},
    
  ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [ RouterModule ]
+  exports: [ RouterModule ],
+  providers: [
+
+    ProviderService
+    
+  ]
 })
 export class AppRoutingModule {}

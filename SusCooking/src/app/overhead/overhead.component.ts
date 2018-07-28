@@ -16,11 +16,6 @@ export class OverheadComponent implements OnInit {
 
   ngOnInit() {
 
-    this.recipeService.getRecipes()
-        .subscribe(data => this.recipes = data);
-
-    this.providerService.storeRecipes(this.recipes);
-    this.storedRecipes = true;
   }
 
 }

@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {ProviderService} from '../../provider.service';
+import { ActivatedRoute } from '@angular/router';
+import { map } from 'rxjs/operators';
 
 @Component({
   selector: 'app-starters-body',
@@ -8,14 +10,19 @@ import {ProviderService} from '../../provider.service';
 })
 export class StartersBodyComponent implements OnInit {
 
-  constructor( private providerService:ProviderService) { }
+  constructor( private providerService:ProviderService,
+    private route: ActivatedRoute) { }
 
   recipes = [];
 
   ngOnInit() {
 
-    var x = this.providerService.getstoredRecipes()
-    this.recipes = x;
+    this.route.data.pipe(map( data => data['recipes']))
+    .subscribe(
+      (recipes) =>{
+        this.recipes = recipes;
+      }
+    );
   }
 
 }

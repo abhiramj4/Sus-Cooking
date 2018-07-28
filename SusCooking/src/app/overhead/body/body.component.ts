@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import {RecipeService} from '../../recipe.service';
-//import {Router} from '../../app/';
+import {ProviderService} from '../../provider.service';
+import { ActivatedRoute } from '@angular/router';
+import { map } from 'rxjs/operators';
 
 @Component({
   selector: 'app-body',
@@ -12,18 +14,24 @@ export class BodyComponent implements OnInit {
   public recipes = [];
   public images = [];
   public text= "./assets/images/All/GrilledChickenSalad.jpg";
-  //public recipesLoaded: Promise<boolean>; //declaring a promise
-  //public testRecipes = [];
+
   
-  constructor(private recipeService: RecipeService) { }
+  constructor(
+    private recipeService: RecipeService,
+    private route: ActivatedRoute
+  ) { }
 
   ngOnInit() {
-   this.recipeService.getRecipes()
-        .subscribe(data => this.recipes = data);
-    console.log( 'This is the recipes ' + this.recipes);
-    //var testStuff = this.recipes;
-    
-    
+   
+    this.route.data.pipe(map( data => data['recipes']))
+        .subscribe(
+          (recipes) =>{
+            this.recipes = recipes;
+          }
+        );
+
+    var x = this.recipes;
+
   }
 
 

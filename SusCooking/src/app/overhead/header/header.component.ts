@@ -16,7 +16,9 @@ export class HeaderComponent implements OnInit {
   showDropDown = false;
   //public testRecipes = [];
   
-  constructor(private recipeService: RecipeService) { }
+  constructor(
+    private recipeService: RecipeService,
+  ) { }
 
   ngOnInit() {
    this.recipeService.getRecipes()

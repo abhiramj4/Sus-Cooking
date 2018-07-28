@@ -5,7 +5,7 @@
   <!--
     Header of the app
   -->
-  <app-header *ngIf="recipes?.length > 0 && storedRecipes">
+  <app-header>
 
   </app-header>
 
@@ -14,11 +14,9 @@
     under <router-outlet>
   -->
 
-  <div *ngIf="recipes?.length > 0 && storedRecipes">
     <router-outlet>
 
     </router-outlet>
-  </div>  
 
   <br>
   <!--
