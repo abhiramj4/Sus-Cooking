@@ -1,11 +1,11 @@
 import { NgModule }             from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { DrinksBodyComponent } from './overhead/drinks-body/drinks-body.component';
-import { VegBodyComponent } from './overhead/veg-body/veg-body.component';
-import { NonvegBodyComponent } from './overhead/nonveg-body/nonveg-body.component';
-import { StartersBodyComponent } from './overhead/starters-body/starters-body.component';
-import { BodyComponent } from './overhead/body/body.component';
+import { DrinksBodyComponent } from './drinks-body/drinks-body.component';
+import { VegBodyComponent } from './veg-body/veg-body.component';
+import { NonvegBodyComponent } from './nonveg-body/nonveg-body.component';
+import { StartersBodyComponent } from './starters-body/starters-body.component';
+import { BodyComponent } from './body/body.component';
 
 import{ProviderService} from './provider.service';
 //import{RecipeService} from './recipe.service';

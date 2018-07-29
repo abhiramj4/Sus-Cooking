@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {ProviderService} from '../../provider.service';
+import {ProviderService} from '../provider.service';
 import { ActivatedRoute } from '@angular/router';
 import { map } from 'rxjs/operators';
 

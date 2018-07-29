@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {RecipeService} from '../../recipe.service';
-import {ProviderService} from '../../provider.service';
+import {RecipeService} from '../recipe.service';
+import {ProviderService} from '../provider.service';
 import { ActivatedRoute } from '@angular/router';
 import { map } from 'rxjs/operators';
 
