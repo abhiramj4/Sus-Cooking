@@ -14,7 +14,7 @@
             <ng-container *ngFor = "let recipe of recipes">
                 <div class="col-sm-12 col-md-4" *ngIf = "recipe.keyWords === recipeType.type">
                     
-                    <a class="lightbox" href="/starterRecipe">
+                    <a class="lightbox" href="/recipe/{{recipe.recipeId}}">
                         <img src="../../../assets/images/All/{{recipe.recipeImage}}" alt="Bridge">
                     </a>
 

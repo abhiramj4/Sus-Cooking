@@ -3,7 +3,6 @@ import {ActivatedRoute} from "@angular/router";
 import {RecipeService} from '../recipe.service';
 import {ProviderService} from '../provider.service';
 import { map } from 'rxjs/operators';
-import {CapitalizeFirstPipe} from '../capitalizefirst.pipe';
 
 @Component({
   selector: 'app-recipe-type',

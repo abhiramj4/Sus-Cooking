@@ -11,7 +11,7 @@
     "recipeName": "Ada",
     "recipeDescShort": "In a bowl take the rice flour and add salt and enough boiling hot water, mixing it thoroughly with a ladle.  Leave it to cool. ",
     "recipeImage": "Ottada.jpg",
-    "keyWords": "#veg#",
+    "keyWords": "veg",
     "relatedRecipes" : "1003, 1018"
   },
   {
@@ -51,7 +51,7 @@
     "recipeName": "Puttu",
     "recipeDescShort": "Soak the rice for about 4 to 5 hours, wash and drain the rice and powder it.(Do not powder it too fine).  Click to find out more",
     "recipeImage": "Puttu.jpg",
-    "keyWords": "#veg#",
+    "keyWords": "veg",
     "relatedRecipes" : ""
   },
   {
@@ -59,7 +59,7 @@
     "recipeName": "Chickpeas Curry (Kadala/Black Chana)",
     "recipeDescShort": "Pressure cook the chickpeas with the sliced onion, whole cardamom, some curry leaves, &frac14; tsp turmeric, 1 tsp chilli powder and salt.  Click to find out more",
     "recipeImage": "Chickpeas.jpg",
-    "keyWords": "#veg#" 
+    "keyWords": "veg" 
 
   },
   {
@@ -95,7 +95,7 @@
     "recipeName": "Quick and easy Kerala Sambar",
     "recipeDescShort": "<p>Pressure cook dal with 2 or 3 cups of water, salt and a pinch of turmeric powder.</p><p>Soak tamarind in a cup of hot water.</p><p>Cook onion, potato, cucumber, eggplant with chilli powder, turmeric powder, salt and water.</p> Click to find out more",
     "recipeImage": "sambar.jpg",
-    "keyWords": "#veg#"
+    "keyWords": "veg"
   },
   {
     "recipeId": "1013",
@@ -160,14 +160,14 @@
     "recipeName": "Onion Paratha",
     "recipeDescShort": "Mix flour, salt, water, oil and knead a smooth dough. Let it rest for 2 or 3 hours covering it with a wet cloth.Click to find out more",
     "recipeImage": "OnionParathaMain.jpg",
-    "keyWords": "#veg#"
+    "keyWords": "veg"
   },
   {
     "recipeId": "1022",
     "recipeName": "Mango Lassi ",
     "recipeDescShort": "Peel mango and dice. Puree chopped mango in a blender. Add all the other ingredients   Click to find out more",
     "recipeImage": "MangoLassi.jpg",
-    "keyWords": "#drinks#"
+    "keyWords": "drinks"
   }
   ,
   {
@@ -175,7 +175,7 @@
     "recipeName": "Margarita",
     "recipeDescShort": "Whether you are chilling out with friends in the weekend or unwinding from a hectic week day, this margarita recipe could be perfect!!   Click to find out more",
     "recipeImage": "Margarita.jpg",
-    "keyWords": "#drinks#"
+    "keyWords": "drinks"
   }
   ,
   {
@@ -183,7 +183,7 @@
     "recipeName": "Sprouted Mung Bean Salad ",
     "recipeDescShort": "Wash mung beans till the water runs clear and soak overnight. Discard water, wash again and drain water completely. Click to find out more",
     "recipeImage": "MungbeanSalad.jpg",
-    "keyWords": "#veg#"
+    "keyWords": "veg"
   }
   ,
   {
@@ -206,7 +206,7 @@
     "recipeName": "Kale with Lentils",
     "recipeDescShort": "Cook lentils (toor dal) with turmeric, salt and required amount of water.Lightly roast dry red chilies and coriander.  Click to find out more",
     "recipeImage": "KaleLentils.jpg",
-    "keyWords": "#veg#"
+    "keyWords": "veg"
   }
   ,
   {
@@ -230,7 +230,7 @@
     "recipeName": "Spicy Ammini Kozhukkatta (Rice Dumplings)",
     "recipeDescShort": "Soak rice for about 8 hours. Grind rice with salt and very little water.Click to find out more",
     "recipeImage": "SpicyAmminiKuzhakatta.jpg",
-    "keyWords": "#veg#"
+    "keyWords": "veg"
   }
   ,
   {
@@ -238,7 +238,7 @@
     "recipeName": "Dosa with Sambar",
     "recipeDescShort": "Dosa is the most special food of South Indian cuisine.The crispy crunchy speciality is to be devoured with the spicy tangy sambar (a curry with lentils and vegetables) a very delicious accompaniment for dosa.Click to find out more",
     "recipeImage": "DosawithSambar.jpg",
-    "keyWords": "#veg#"
+    "keyWords": "veg"
   }
   ,
   {
@@ -246,7 +246,7 @@
     "recipeName": "Whole Wheat Banana Bread",
     "recipeDescShort": "This banana bread is made of whole wheat flour, and honey is used as substitute for sugar. Click to find out more",
     "recipeImage": "BananaBread.jpg",
-    "keyWords": "#veg#"
+    "keyWords": "veg"
   }
   ,
   {
@@ -262,7 +262,7 @@
     "recipeName": "Kale Smoothie",
     "recipeDescShort": "Begin your day with this heart healthy Smoothie! Kale, the super nutrient vegetable is known to suppress cancer, prevent diabetes, aid weight loss and so on. Click to find out more",
     "recipeImage": "KaleSmoothie.jpg",
-    "keyWords": "#drinks#"
+    "keyWords": "drinks"
   }
   ,
   {
@@ -270,7 +270,7 @@
     "recipeName": "Avocado Roti",
     "recipeDescShort": "There is no limit as to the numerous varieties of rotis we come accross from different cuisines in India. Click to find out more",
     "recipeImage": "AvocadoRoti.jpg",
-    "keyWords": "#veg#"
+    "keyWords": "veg"
   },
   {
     "recipeId": "1036",
@@ -292,7 +292,7 @@
     "recipeName": "Pidi - A Traditional Kerala Dish",
     "recipeDescShort": "Pidi, a soupy rice dumpling dish served with chicken curry is a very traditional dish from the cuisines of Central Kerala. Click to find out more",
     "recipeImage": "PidiChicken.jpg",
-    "keyWords": "#veg#"
+    "keyWords": "veg"
   }
   ,
   {
@@ -300,7 +300,7 @@
     "recipeName": "Sangria",
     "recipeDescShort": "Sangria is a drink of Spanish origin made of wine and some citrus fruits. Orange juice or sometimes brandy is added too. It is a drink people can make at home!!Click to find out more",
     "recipeImage": "Sangria.jpg",
-    "keyWords": "#drinks#"
+    "keyWords": "drinks"
   }
   ,
   {
@@ -316,7 +316,7 @@
     "recipeName": "Vegetable Paneer Biriyani",
     "recipeDescShort": "Biriyani is a rice dish popular in India, Pakistan and middle east. It is made with aromatic spices, fragrant basmati rice and meat or vegetables cooked together or separately and then mixed by layering and baking. Style of cooking biriyani varies from region to region and there are numerous varieties of biriyani of which Vegetable Paneer Biriyani is one.Click to find out more",
     "recipeImage": "VegetablePaneerBiriyani.jpg",
-    "keyWords": "#veg#"
+    "keyWords": "veg"
   }
   ,
   {

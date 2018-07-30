@@ -1,3 +1,9 @@
-<p>
-  recipe works!
-</p>
+{{selectedRecipe.recipeId}}
+
+<div class="card" style="width: 18rem;">
+    <img class="card-img-top" src= "../../../assets/images/All/{{selectedRecipe.recipeImage}}" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">{{selectedRecipe.recipeName}}</h5>
+      <p class="card-text">{{selectedRecipe.recipeDescShort}}</p>
+    </div>
+</div>

@@ -15,16 +15,9 @@ import { RightBodyComponent } from './body/right-body/right-body.component';
 import { FooterComponent } from './footer/footer.component';
 import { AppRoutingModule } from './/app-routing.module';
 
-import { DrinksBodyComponent } from './drinks-body/drinks-body.component';
-import { VegBodyComponent } from './veg-body/veg-body.component';
-import { NonvegBodyComponent } from './nonveg-body/nonveg-body.component';
-import { StartersBodyComponent } from './starters-body/starters-body.component';
-import { StarterGalleryComponent } from './starters-body/starter-gallery/starter-gallery.component';
-
-
 import { FormsModule }   from '@angular/forms';
 import { RecipeFilterPipe } from './header/recipe-filter.pipe';
-import { StarterRecipeComponent } from './starters-body/starter-recipe/starter-recipe.component';
+
 import { RecipeComponent } from './recipe/recipe.component';
 import { RecipeTypeComponent } from './recipe-type/recipe-type.component';
 import { CapitalizeFirstPipe } from './capitalizefirst.pipe';
@@ -40,13 +33,7 @@ import { CapitalizeFirstPipe } from './capitalizefirst.pipe';
     LeftBodyComponent,
     RightBodyComponent,
     FooterComponent,
-    DrinksBodyComponent,
-    VegBodyComponent,
-    NonvegBodyComponent,
-    StartersBodyComponent,
-    StarterGalleryComponent,
     RecipeFilterPipe,
-    StarterRecipeComponent,
     RecipeComponent,
     RecipeTypeComponent,
     CapitalizeFirstPipe,
