@@ -21,9 +21,7 @@ import { RecipeFilterPipe } from './header/recipe-filter.pipe';
 import { RecipeComponent } from './recipe/recipe.component';
 import { RecipeTypeComponent } from './recipe-type/recipe-type.component';
 import { CapitalizeFirstPipe } from './capitalizefirst.pipe';
-
-
-
+import { SafePipe } from './recipe/safe.pipe';
 
 @NgModule({
   declarations: [
@@ -37,6 +35,7 @@ import { CapitalizeFirstPipe } from './capitalizefirst.pipe';
     RecipeComponent,
     RecipeTypeComponent,
     CapitalizeFirstPipe,
+    SafePipe,
 
   ],
   imports: [
@@ -48,7 +47,7 @@ import { CapitalizeFirstPipe } from './capitalizefirst.pipe';
     FormsModule,
 
   ],
-  providers: [
+  providers: [SafePipe
   ],
   bootstrap: [AppComponent]
 })

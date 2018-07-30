@@ -3,5 +3,6 @@ export interface aRecipe {
     recipeName: string,
     recipeDescShort: string,
     recipeImage: string,
-    keyWords: string
+    keyWords: string,
+    recipeHTML:string
 }

@@ -71,9 +71,10 @@
                           <div>
       
                               <div class = "state" *ngFor = "let r of recipes | recipeFilter:term">
-                                
-                                  <img src="../../assets/images/All/{{r.recipeImage}}" alt="Avatar" style="border-radius: 50%;">
-                                  {{r.recipeName}}
+                                  <a href="/recipe/{{r.recipeId}}">
+                                    <img src="../../assets/images/All/{{r.recipeImage}}" alt="Avatar" style="border-radius: 50%;">
+                                    {{r.recipeName}}
+                                  </a>
                               </div>
       
                           </div>

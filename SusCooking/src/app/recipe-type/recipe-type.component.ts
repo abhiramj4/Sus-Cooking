@@ -9,6 +9,12 @@ import { map } from 'rxjs/operators';
   templateUrl: './recipe-type.component.html',
   styleUrls: ['./recipe-type.component.css']
 })
+
+/**
+ * Every recipe "type" (Starters, drinks, veg, non-veg) CAN have each of their
+ * own components, but it is more efficient to just have ONE component for ALL types
+ * of recipes. This is achieved with parameterized routes
+ */
 export class RecipeTypeComponent implements OnInit {
 
   public recipeType;

@@ -1,10 +1,12 @@
+
 [{
     "recipeId": "1000",
     "recipeName": "Grilled Chicken Salad",
     "recipeDescShort": "Marinate chicken with the ingredients listed and keep it aside for about an hour. Bake chicken for 20 to 30 minutes on 450 deg F turning sides half way through.  In a bowl throw in the Baby Spinach, Tomatoes and Strawberries.",
     "recipeImage": "GrilledChickenSalad.jpg",
     "keyWords": "non-veg",
-    "relatedRecipes" : "1013, 1024, 1040, 1026"
+    "relatedRecipes" : "1013, 1024, 1040, 1026",
+    "recipeHTML":""
   },
   {
     "recipeId": "1001",
@@ -12,7 +14,8 @@
     "recipeDescShort": "In a bowl take the rice flour and add salt and enough boiling hot water, mixing it thoroughly with a ladle.  Leave it to cool. ",
     "recipeImage": "Ottada.jpg",
     "keyWords": "veg",
-    "relatedRecipes" : "1003, 1018"
+    "relatedRecipes" : "1003, 1018",
+    "recipeHTML":""
   },
   {
     "recipeId": "1002",
@@ -20,7 +23,8 @@
     "recipeDescShort":"Kappa, a root vegetable commonly grown in tropical regions, used to be known as poor man's dish because it was inexpensive and could be grown easily in backyards. However, this dish has become very popular ever since. It is a very sought-after dish at restaurants and can often be found on the menu of even luxury hotels! Cassava is cooked in a variety of forms. The mashed cassava known as “Kappa Puzhukkku” is one such variety from the state of Kerala. It is cooked in water, then mashed, tossed and cooked with a spicy mixture of coconut and green chilies. The soft butter like textured kappa is then devoured with a spicy tangy fish curry, typically king fish! Click to find out more",
     "recipeImage": "kappafish.jpg",
     "keyWords": "non-veg",
-    "relatedRecipes" : "1008, 1004 "
+    "relatedRecipes" : "1008, 1004 ",
+    "recipeHTML":""
   },
   {
     "recipeId": "1003",
@@ -28,7 +32,8 @@
     "recipeDescShort": "Pressure cook the whole potatoes, beets and carrot.peel the skin. Mash all the veges together.Let it cool completely.  Click to find out more",
     "recipeImage": "cutlet.jpg",
     "keyWords": "starters",
-    "relatedRecipes" : ""
+    "relatedRecipes" : "",
+    "recipeHTML":""
   },
   {
     "recipeId": "1004",
@@ -36,7 +41,8 @@
     "recipeDescShort": "Marinate the beef with no 2, 3, 4 and 13.for about 30 mts. Heat oil in a pan and saute 2 onions till they turn light yellow. Add the marinated beef and mix the sauted onion and beef well.  Click to find out more",
     "recipeImage": "Beeffry.jpg",
     "keyWords": "non-veg",
-    "relatedRecipes" : ""
+    "relatedRecipes" : "",
+    "recipeHTML":""
   },
   {
     "recipeId": "1005",
@@ -44,7 +50,8 @@
     "recipeDescShort": "Cook the rice with three cups of water . Mix the rice vinegar, salt and sugar thoroughly. Add the mixture to the cooked rice and mix thoroughly and let it cool.  Click to find out more",
     "recipeImage": "Sushi.jpg",
     "keyWords": "non-veg",
-    "relatedRecipes" : ""
+    "relatedRecipes" : "",
+    "recipeHTML":""
   },
   {
     "recipeId": "1006",
@@ -52,14 +59,16 @@
     "recipeDescShort": "Soak the rice for about 4 to 5 hours, wash and drain the rice and powder it.(Do not powder it too fine).  Click to find out more",
     "recipeImage": "Puttu.jpg",
     "keyWords": "veg",
-    "relatedRecipes" : ""
+    "relatedRecipes" : "",
+    "recipeHTML":""
   },
   {
     "recipeId": "1007",
     "recipeName": "Chickpeas Curry (Kadala/Black Chana)",
     "recipeDescShort": "Pressure cook the chickpeas with the sliced onion, whole cardamom, some curry leaves, &frac14; tsp turmeric, 1 tsp chilli powder and salt.  Click to find out more",
     "recipeImage": "Chickpeas.jpg",
-    "keyWords": "veg" 
+    "keyWords": "veg",
+    "recipeHTML":""
 
   },
   {
@@ -67,84 +76,97 @@
     "recipeName": "Fish Curry",
     "recipeDescShort": "Cut, wash and clean the fish</p><p>Make a paste of ingredients 2 to 5 with very little water</p><p>Pour oil into the clay pot and splutter mustard seeds  Click to find out more",
     "recipeImage": "FishCurry.jpg" ,
-    "keyWords": "non-veg"  
+    "keyWords": "non-veg",
+    "recipeHTML":""  
   },
   {
     "recipeId": "1009",
     "recipeName": "Crab Masala",
     "recipeDescShort": "In a large pot, cover and cook the crab with 2tbsps chilli powder, turmeric, salt, few curry leaves and water. The quantity of water should be half the level of crabs in the pot. Cook for about 10 minutes. Click to find out more",
     "recipeImage": "Crab.jpg",
-    "keyWords": "non-veg"   
+    "keyWords": "non-veg"   ,
+    "recipeHTML":""
   },
   {
     "recipeId": "1010",
     "recipeName": "Spring Rolls",
     "recipeDescShort": "Pour a tbsp of oil into a saucepan. Sauté the onion, shredded ginger and garlic, carrots, cabbage, mushrooms in that order, just for about a minute. Click to find out more",
     "recipeImage": "Springroll.jpg",
-    "keyWords": "starters"   
+    "keyWords": "starters"   ,
+    "recipeHTML":""
   },
   {
     "recipeId": "1011",
     "recipeName": "Egg Curry",
     "recipeDescShort": "Grind all the ingredients listed for grinding. Peel skin cut and cook potato in microwave using potato option.Click to find out more",
     "recipeImage": "Egg.jpg",
-    "keyWords": "non-veg"
+    "keyWords": "non-veg",
+    "recipeHTML":""
+    
   },
   {
     "recipeId": "1012",
     "recipeName": "Quick and easy Kerala Sambar",
     "recipeDescShort": "<p>Pressure cook dal with 2 or 3 cups of water, salt and a pinch of turmeric powder.</p><p>Soak tamarind in a cup of hot water.</p><p>Cook onion, potato, cucumber, eggplant with chilli powder, turmeric powder, salt and water.</p> Click to find out more",
     "recipeImage": "sambar.jpg",
-    "keyWords": "veg"
+    "keyWords": "veg",
+    "recipeHTML":""
   },
   {
     "recipeId": "1013",
     "recipeName": "Pepper Chicken",
     "recipeDescShort": "<p>In a pan add oil. Add cloves and cinnamon and wait till it pops out lightly. Add onions and saut&eacute; till light brown.</p> Click to find out more",
     "recipeImage": "PepperChicken.jpg",
-    "keyWords": "non-veg"
+    "keyWords": "non-veg",
+    "recipeHTML":"PepperChicken.html"
   },
   {
     "recipeId": "1014",
     "recipeName": "Kerala Prawn Masala",
     "recipeDescShort": "<p>Coarsely grind green chillies, ginger, garlic and a few curry leaves in a blender. Shell and devein prawns.</p> Click to find out more",
     "recipeImage": "PrawnMasala.jpg",
-    "keyWords": "non-veg"
+    "keyWords": "non-veg",
+    "recipeHTML":""
   },
   {
     "recipeId": "1015",
     "recipeName": "Chicken Biriyani",
     "recipeDescShort": "<p>Wash rice and drain all water. Soak saffron in two tbsp milk. Make a paste of mint, cilantro, ginger, green chilli and garlic. </p> Click to find out more",
     "recipeImage": "ChickenBiriyani.jpg",
-    "keyWords": "non-veg"
+    "keyWords": "non-veg",
+    "recipeHTML":""
   },
   {
     "recipeId": "1016",
     "recipeName": "Methi Mutton",
     "recipeDescShort": "Marinate Meat for 3 to 4 hrs with salt, yoghurt, chilli powder, turmeric, crushed green chillies, ginger & garlic. </p> Click to find out more",
     "recipeImage": "MethiMutton.jpg",
-    "keyWords": "non-veg"
+    "keyWords": "non-veg",
+    "recipeHTML":""
   },
   {
     "recipeId": "1017",
     "recipeName": "Appam with Egg Curry",
     "recipeDescShort": "Soak rice for about 5 to 6 hrs. Grind rice and leave aside for fermentation for about 6 to 8 hrs or overnight. The consistency of the batter is little runnier than dosa/pancake batter.   Click to find out more",
     "recipeImage": "AppamEggCurry.jpg",
-    "keyWords": "non-veg"
+    "keyWords": "non-veg",
+    "recipeHTML":""
   },
   {
     "recipeId": "1018",
     "recipeName": "Coconut Shrimp",
     "recipeDescShort": "Peel and devein shrimp but leave the tail on. In a large bowl, whisk together 1 cup of flour, ginger, garlic, chilli powder, baking powder, salt, black pepper and egg.   Click to find out more",
     "recipeImage": "CoconutShrimp.jpg",
-    "keyWords": "starters"
+    "keyWords": "starters",
+    "recipeHTML":""
   },
   {
     "recipeId": "1019",
     "recipeName": "Frittata ",
     "recipeDescShort": "Frittatas are cooked in a cast iron pan or oven-safe skillet because they are started on the stovetop and then finished in the oven.   Click to find out more",
     "recipeImage": "Frittata.jpg",
-    "keyWords": "non-veg"
+    "keyWords": "non-veg",
+    "recipeHTML":""
   }
   ,
   {
@@ -152,7 +174,8 @@
     "recipeName": "Shrimp Mango Curry ",
     "recipeDescShort": "Cook shrimp, drumsticks, mango, green chilies and ginger with chili powder, turmeric, salt, curry leaf and a cup of water.   Click to find out more",
     "recipeImage": "ShrimpMango.jpg",
-    "keyWords": "non-veg"
+    "keyWords": "non-veg",
+    "recipeHTML":""
   }
   ,
   {
@@ -160,22 +183,26 @@
     "recipeName": "Onion Paratha",
     "recipeDescShort": "Mix flour, salt, water, oil and knead a smooth dough. Let it rest for 2 or 3 hours covering it with a wet cloth.Click to find out more",
     "recipeImage": "OnionParathaMain.jpg",
-    "keyWords": "veg"
+    "keyWords": "veg",
+    "recipeHTML":""
   },
   {
     "recipeId": "1022",
     "recipeName": "Mango Lassi ",
     "recipeDescShort": "Peel mango and dice. Puree chopped mango in a blender. Add all the other ingredients   Click to find out more",
     "recipeImage": "MangoLassi.jpg",
-    "keyWords": "drinks"
+    "keyWords": "drinks",
+    "recipeHTML":""
   }
+
   ,
   {
     "recipeId": "1023",
     "recipeName": "Margarita",
     "recipeDescShort": "Whether you are chilling out with friends in the weekend or unwinding from a hectic week day, this margarita recipe could be perfect!!   Click to find out more",
     "recipeImage": "Margarita.jpg",
-    "keyWords": "drinks"
+    "keyWords": "drinks",
+    "recipeHTML":""
   }
   ,
   {
@@ -183,7 +210,8 @@
     "recipeName": "Sprouted Mung Bean Salad ",
     "recipeDescShort": "Wash mung beans till the water runs clear and soak overnight. Discard water, wash again and drain water completely. Click to find out more",
     "recipeImage": "MungbeanSalad.jpg",
-    "keyWords": "veg"
+    "keyWords": "veg",
+    "recipeHTML":""
   }
   ,
   {
@@ -191,14 +219,16 @@
     "recipeName": "Chicken Fajita ",
     "recipeDescShort": "In a bowl combine all the ingredients for seasoning mix. Cut chicken, bell peppers, mushrooms and onion into thin long strips. Click to find out more",
     "recipeImage": "ChickenFajita.jpg",
-    "keyWords": "non-veg"
+    "keyWords": "non-veg",
+    "recipeHTML":""
   }  ,
   {
     "recipeId": "1026",
     "recipeName": "Grilled Chicken Tikka",
     "recipeDescShort": "Thread the chicken on to the skewers, followed by onion and bell peppers. Click to find out more",
     "recipeImage": "ChickenTikka.jpg",
-    "keyWords": "starters"
+    "keyWords": "starters",
+    "recipeHTML":""
   }
   ,
   {
@@ -206,7 +236,8 @@
     "recipeName": "Kale with Lentils",
     "recipeDescShort": "Cook lentils (toor dal) with turmeric, salt and required amount of water.Lightly roast dry red chilies and coriander.  Click to find out more",
     "recipeImage": "KaleLentils.jpg",
-    "keyWords": "veg"
+    "keyWords": "veg",
+    "recipeHTML":""
   }
   ,
   {
@@ -214,7 +245,8 @@
     "recipeName": "Stir Fried Shrimp",
     "recipeDescShort": "Peel skin, devein and marinate shrimp with spices and salt.In a pan heat oil and add shrimp and stir fry  Click to find out more",
     "recipeImage": "StirFryShrimp.jpg",
-    "keyWords": "non-veg"
+    "keyWords": "non-veg",
+    "recipeHTML":""
   }
   ,
   {
@@ -222,7 +254,8 @@
     "recipeName": "Kerala Pomfret Curry",
     "recipeDescShort": "Marinate pomfret and leave it for about 30 minutes or so. Grind coconut with all the ingredients for grinding. Click to find out more",
     "recipeImage": "PomfretCurry.jpg",
-    "keyWords": "non-veg"
+    "keyWords": "non-veg",
+    "recipeHTML":""
   }
   ,
   {
@@ -230,7 +263,8 @@
     "recipeName": "Spicy Ammini Kozhukkatta (Rice Dumplings)",
     "recipeDescShort": "Soak rice for about 8 hours. Grind rice with salt and very little water.Click to find out more",
     "recipeImage": "SpicyAmminiKuzhakatta.jpg",
-    "keyWords": "veg"
+    "keyWords": "veg",
+    "recipeHTML":""
   }
   ,
   {
@@ -238,7 +272,8 @@
     "recipeName": "Dosa with Sambar",
     "recipeDescShort": "Dosa is the most special food of South Indian cuisine.The crispy crunchy speciality is to be devoured with the spicy tangy sambar (a curry with lentils and vegetables) a very delicious accompaniment for dosa.Click to find out more",
     "recipeImage": "DosawithSambar.jpg",
-    "keyWords": "veg"
+    "keyWords": "veg",
+    "recipeHTML":""
   }
   ,
   {
@@ -246,7 +281,8 @@
     "recipeName": "Whole Wheat Banana Bread",
     "recipeDescShort": "This banana bread is made of whole wheat flour, and honey is used as substitute for sugar. Click to find out more",
     "recipeImage": "BananaBread.jpg",
-    "keyWords": "veg"
+    "keyWords": "veg",
+    "recipeHTML":""
   }
   ,
   {
@@ -254,7 +290,8 @@
     "recipeName": "Stuffed Bell Peppers",
     "recipeDescShort": "Preheat oven to 400 deg F. Cut off the top portion of the bell peppers and scoop the seeds out.  Click to find out more",
     "recipeImage": "BellPeppersMain.jpg",
-    "keyWords": "starters"
+    "keyWords": "starters",
+    "recipeHTML":""
   }
   ,
   {
@@ -262,7 +299,8 @@
     "recipeName": "Kale Smoothie",
     "recipeDescShort": "Begin your day with this heart healthy Smoothie! Kale, the super nutrient vegetable is known to suppress cancer, prevent diabetes, aid weight loss and so on. Click to find out more",
     "recipeImage": "KaleSmoothie.jpg",
-    "keyWords": "drinks"
+    "keyWords": "drinks",
+    "recipeHTML":""
   }
   ,
   {
@@ -270,14 +308,16 @@
     "recipeName": "Avocado Roti",
     "recipeDescShort": "There is no limit as to the numerous varieties of rotis we come accross from different cuisines in India. Click to find out more",
     "recipeImage": "AvocadoRoti.jpg",
-    "keyWords": "veg"
+    "keyWords": "veg",
+    "recipeHTML":""
   },
   {
     "recipeId": "1036",
     "recipeName": "Mutton Biriyani",
     "recipeDescShort": "Yet another biryani recipe from India is a true example of Indian culinary heritage. Click to find out more",
     "recipeImage": "MuttonBiriyani.jpg",
-    "keyWords": "non-veg"
+    "keyWords": "non-veg",
+    "recipeHTML":""
   }
   ,
   {
@@ -285,14 +325,16 @@
     "recipeName": "Traditional Kerala Chicken Curry",
     "recipeDescShort": "Marinate chicken with all ingredients for marinade for about an hour.Cook the chicken along with the chopped onions, potato, green chili, shredded ginger, salt and required quantity of water. Click to find out more",
     "recipeImage": "TraditionalChickenCurry.jpg",
-    "keyWords": "non-veg"
+    "keyWords": "non-veg",
+    "recipeHTML":""
   },
   {
     "recipeId": "1038",
     "recipeName": "Pidi - A Traditional Kerala Dish",
     "recipeDescShort": "Pidi, a soupy rice dumpling dish served with chicken curry is a very traditional dish from the cuisines of Central Kerala. Click to find out more",
     "recipeImage": "PidiChicken.jpg",
-    "keyWords": "veg"
+    "keyWords": "veg",
+    "recipeHTML":""
   }
   ,
   {
@@ -300,7 +342,8 @@
     "recipeName": "Sangria",
     "recipeDescShort": "Sangria is a drink of Spanish origin made of wine and some citrus fruits. Orange juice or sometimes brandy is added too. It is a drink people can make at home!!Click to find out more",
     "recipeImage": "Sangria.jpg",
-    "keyWords": "drinks"
+    "keyWords": "drinks",
+    "recipeHTML":""
   }
   ,
   {
@@ -308,7 +351,8 @@
     "recipeName": "Avocado Orange Salad with Pan Roasted Chicken",
     "recipeDescShort": "If you are on a low carb diet or trying for weight loss, these kind of recipes are ideal for you!! Marinate chicken with all ingredients for marinade. Set aside for an hour.Preheat oven to 400 deg F. Click to find out more",
     "recipeImage": "AvocadoOrangeSalad.jpg",
-    "keyWords": "non-veg"
+    "keyWords": "non-veg",
+    "recipeHTML":""
   }
   ,
   {
@@ -316,7 +360,8 @@
     "recipeName": "Vegetable Paneer Biriyani",
     "recipeDescShort": "Biriyani is a rice dish popular in India, Pakistan and middle east. It is made with aromatic spices, fragrant basmati rice and meat or vegetables cooked together or separately and then mixed by layering and baking. Style of cooking biriyani varies from region to region and there are numerous varieties of biriyani of which Vegetable Paneer Biriyani is one.Click to find out more",
     "recipeImage": "VegetablePaneerBiriyani.jpg",
-    "keyWords": "veg"
+    "keyWords": "veg",
+    "recipeHTML":""
   }
   ,
   {
@@ -324,6 +369,7 @@
     "recipeName": "Stir Fried Chicken (Chinese Style)",
     "recipeDescShort": "In a bowl, whisk all ingredients under marinade. Add chicken to the marinade and set aside for about 30 minutes.Click to find out more",
     "recipeImage": "StirFriedChicken.jpg",
-    "keyWords": "non-veg"
+    "keyWords": "non-veg",
+    "recipeHTML":""
 }
 ]
