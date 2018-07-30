@@ -24,7 +24,10 @@ import { StarterGalleryComponent } from './starters-body/starter-gallery/starter
 
 import { FormsModule }   from '@angular/forms';
 import { RecipeFilterPipe } from './header/recipe-filter.pipe';
-
+import { StarterRecipeComponent } from './starters-body/starter-recipe/starter-recipe.component';
+import { RecipeComponent } from './recipe/recipe.component';
+import { RecipeTypeComponent } from './recipe-type/recipe-type.component';
+import { CapitalizeFirstPipe } from './capitalizefirst.pipe';
 
 
 
@@ -43,6 +46,10 @@ import { RecipeFilterPipe } from './header/recipe-filter.pipe';
     StartersBodyComponent,
     StarterGalleryComponent,
     RecipeFilterPipe,
+    StarterRecipeComponent,
+    RecipeComponent,
+    RecipeTypeComponent,
+    CapitalizeFirstPipe,
 
   ],
   imports: [

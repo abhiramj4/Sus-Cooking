@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {RecipeService} from '../recipe.service';
-
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -17,14 +17,17 @@ export class HeaderComponent implements OnInit {
   //public testRecipes = [];
   
   constructor(
-    private recipeService: RecipeService,
+    private recipeService: RecipeService, private router: Router
   ) { }
 
   ngOnInit() {
    this.recipeService.getRecipes()
         .subscribe(data => this.recipes = data);
   
-      
+  }
+
+  public onSelect(recipeType){
+    this.router.navigate(['/recipetype',recipeType]);
   }
 
   public getRandomRecipe(): string{

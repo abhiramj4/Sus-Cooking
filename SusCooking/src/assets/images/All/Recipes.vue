@@ -22,7 +22,7 @@
                               <li><a class="page-scroll" href="#recipeFilter" @click="getRecipeType('#non-veg#');">Non. Veg</a></li>
                             </ul>
                             <ul class="nav navbar-nav">
-                              <li><a class="page-scroll" href="#recipeFilter" @click="getRecipeType('#starter#');">Starters</a></li>
+                              <li><a class="page-scroll" href="#recipeFilter" @click="getRecipeType('#starters#');">Starters</a></li>
                             </ul>
                             <ul class="nav navbar-nav">
                               <li><a class="page-scroll" href="#recipeFilter" @click="getRecipeType('#drinks#');">Drinks</a></li>

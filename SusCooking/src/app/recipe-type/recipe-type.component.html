@@ -1,22 +1,28 @@
+
 <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
 
 <div class="container gallery-container">
   
 
-  <h1>Starters</h1>
+  <h1>{{recipeType.type | capitalizeFirst }}</h1>
 
   <p class="page-description text-center">Click on the images for more into</p>
   
   <div class="tz-gallery">
 
       <div class="row">
+            <ng-container *ngFor = "let recipe of recipes">
+                <div class="col-sm-12 col-md-4" *ngIf = "recipe.keyWords === recipeType.type">
+                    
+                    <a class="lightbox" href="/starterRecipe">
+                        <img src="../../../assets/images/All/{{recipe.recipeImage}}" alt="Bridge">
+                    </a>
 
-          <div class="col-sm-12 col-md-4">
-              
-              <a class="lightbox" href="/starterRecipe">
-                  <img src="../../../assets/images/All/BellPeppers1.jpg" alt="Bridge">
-              </a>
-          </div>
+                </div>
+            </ng-container>
+      
+
+          <!--
           <div class="col-sm-6 col-md-4">
               <a class="lightbox" href="/starterRecipe">
                   <img src="../../../assets/images/All/Springroll.jpg" alt="Park">
@@ -43,6 +49,8 @@
   </div>
 
 </div>
+
+-->
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
 <script>
