@@ -134,7 +134,7 @@
     "recipeDescShort": "<p>Wash rice and drain all water. Soak saffron in two tbsp milk. Make a paste of mint, cilantro, ginger, green chilli and garlic. </p> Click to find out more",
     "recipeImage": "ChickenBiriyani.jpg",
     "keyWords": "non-veg",
-    "recipeHTML":""
+    "recipeHTML":"ChickenBiriyani.html"
   },
   {
     "recipeId": "1016",
@@ -150,7 +150,7 @@
     "recipeDescShort": "Soak rice for about 5 to 6 hrs. Grind rice and leave aside for fermentation for about 6 to 8 hrs or overnight. The consistency of the batter is little runnier than dosa/pancake batter.   Click to find out more",
     "recipeImage": "AppamEggCurry.jpg",
     "keyWords": "non-veg",
-    "recipeHTML":""
+    "recipeHTML":"AppamEggCurry.html"
   },
   {
     "recipeId": "1018",
@@ -220,7 +220,7 @@
     "recipeDescShort": "In a bowl combine all the ingredients for seasoning mix. Cut chicken, bell peppers, mushrooms and onion into thin long strips. Click to find out more",
     "recipeImage": "ChickenFajita.jpg",
     "keyWords": "non-veg",
-    "recipeHTML":""
+    "recipeHTML":"ChickenFajita.html"
   }  ,
   {
     "recipeId": "1026",
@@ -282,7 +282,7 @@
     "recipeDescShort": "This banana bread is made of whole wheat flour, and honey is used as substitute for sugar. Click to find out more",
     "recipeImage": "BananaBread.jpg",
     "keyWords": "veg",
-    "recipeHTML":""
+    "recipeHTML":"BananaBread.html"
   }
   ,
   {
@@ -309,7 +309,7 @@
     "recipeDescShort": "There is no limit as to the numerous varieties of rotis we come accross from different cuisines in India. Click to find out more",
     "recipeImage": "AvocadoRoti.jpg",
     "keyWords": "veg",
-    "recipeHTML":""
+    "recipeHTML":"AvocadoRoti.html"
   },
   {
     "recipeId": "1036",
@@ -352,7 +352,7 @@
     "recipeDescShort": "If you are on a low carb diet or trying for weight loss, these kind of recipes are ideal for you!! Marinate chicken with all ingredients for marinade. Set aside for an hour.Preheat oven to 400 deg F. Click to find out more",
     "recipeImage": "AvocadoOrangeSalad.jpg",
     "keyWords": "non-veg",
-    "recipeHTML":""
+    "recipeHTML":"AvocadoOrangeSalad.html"
   }
   ,
   {
