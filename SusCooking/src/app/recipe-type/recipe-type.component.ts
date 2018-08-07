@@ -21,6 +21,9 @@ export class RecipeTypeComponent implements OnInit {
   public recipes = [];
   public test = true;
 
+  Arr = Array; //Array type captured in a variable
+  num:number = 3;
+
   constructor(private route: ActivatedRoute,
     private recipeService: RecipeService,
    ) {

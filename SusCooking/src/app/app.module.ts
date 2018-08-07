@@ -23,6 +23,7 @@ import { RecipeTypeComponent } from './recipe-type/recipe-type.component';
 import { CapitalizeFirstPipe } from './capitalizefirst.pipe';
 import { SafePipe } from './recipe/safe.pipe';
 
+
 @NgModule({
   declarations: [
     AppComponent,

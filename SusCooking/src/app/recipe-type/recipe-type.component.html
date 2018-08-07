@@ -7,52 +7,32 @@
   <h1>{{recipeType.type | capitalizeFirst }}</h1>
 
   <p class="page-description text-center">Click on the images for more into</p>
-  
-  <div class="tz-gallery">
+
 
       <div class="row">
+
+        
             <ng-container *ngFor = "let recipe of recipes">
-                <div class="col-sm-12 col-md-4" *ngIf = "recipe.keyWords === recipeType.type">
+
+                    <div class="col-md-4" *ngIf = "recipe.keyWords === recipeType.type">
+                            <div class="thumbnail">
+                              <a href="/recipe/{{recipe.recipeId}}">
+                                <div>
+                                    <img class = "recipeThumbnail" src="../../../assets/images/All/{{recipe.recipeImage}}" alt="Lights" style="width:100%">
+                                </div>
+                                <div class="caption" style="text-align: center">
+                                        <p>{{recipe.recipeName}}</p>
+                                </div>
+                              </a>
+                            </div>
                     
-                    <a class="lightbox" href="/recipe/{{recipe.recipeId}}">
-                        <img src="../../../assets/images/All/{{recipe.recipeImage}}" alt="Bridge">
-                    </a>
+                    </div>
+                    
+                    
 
-                </div>
+                
             </ng-container>
-      
+        </div>
+    </div>
 
-          <!--
-          <div class="col-sm-6 col-md-4">
-              <a class="lightbox" href="/starterRecipe">
-                  <img src="../../../assets/images/All/Springroll.jpg" alt="Park">
-              </a>
-          </div>
-          <div class="col-sm-6 col-md-4">
-              <a class="lightbox" href="/starterRecipe">
-                  <img src="../../../assets/images/All/cutlet.jpg" alt="Tunnel">
-              </a>
-          </div>
-          <div class="col-sm-12 col-md-8">
-              <a class="lightbox" href="../images/traffic.jpg">
-                  <img src="../../../assets/images/All/CoconutShrimp.jpg" alt="Traffic">
-              </a>
-          </div>
-          <div class="col-sm-6 col-md-4">
-              <a class="lightbox" href="/starterRecipe">
-                  <img src="../../../assets/images/All/GrilledChickenSalad.jpg" alt="Coast">
-              </a>
-          </div> 
-
-      </div>
-
-  </div>
-
-</div>
-
--->
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
-<script>
-  baguetteBox.run('.tz-gallery');
-</script>
+            

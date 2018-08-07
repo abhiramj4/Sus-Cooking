@@ -7,11 +7,11 @@
         }
 </script>
 
-    <div id ="contnet" class = "row"> 
-            <div class = "col-sm-8">
-     <iframe id="content" [src] = "recipeHTML | safe" frameborder="0" scrolling="no" onload="resizeIframe(this)" allowfullscreen>
-
-     </iframe>
+    <div id ="contnet" class = "row" style="overflow: auto"> 
+        
+        <div class = "col-sm-12">
+                <iframe id="content" [src] = "recipeHTML | safe" frameborder="0" scrolling="yes" onload="resizeIframe(this)" allowfullscreen>
+                </iframe>
         </div>
     </div>
 
