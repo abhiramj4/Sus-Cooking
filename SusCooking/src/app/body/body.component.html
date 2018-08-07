@@ -1,65 +1,10 @@
-<link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
-
-<div class = "container" style = "margin-top:50px">
-
-
-
-      
- 
-    <!--Tittle-->
-    <div class="container gallery-container">
-        <h1>Recipes of the day</h1>
-
-    </div>
-
-    <br>
-    <br>
-    <br>
-
-  <div class = "row">
-
-    <div class="col-md-4">
-        <div class="thumbnail">
-          <a href="../../assets/images/All/BellPeppers1.jpg">
-            <img src="../../assets/images/All/BellPeppers1.jpg" class = "dailyRecipe" alt="Lights">
-            <div class="caption">
-              <p>Lorem ipsum...</p>
-            </div>
-          </a>
-        </div>
-    </div>
-
-    <div class="col-md-4">
-        <div class="thumbnail">
-          <a href="../../assets/images/All/ChickenTikka.jpg">
-            <img src="../../assets/images/All/ChickenTikka.jpg" class = "dailyRecipe" alt="Nature">
-            <div class="caption">
-              <p>Lorem ipsum...</p>
-            </div>
-          </a>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <div class="thumbnail">
-          <a href="../../assets/images/All/AppamEggCurry.jpg">
-            <img src="../../assets/images/All/AppamEggCurry.jpg" class = "dailyRecipe" alt="Fjords" >
-            <div class="caption">
-              <p>Lorem ipsum...</p>
-            </div>
-          </a>
-        </div>
-    </div>
-  
-  </div>
-
-
-    <!--Left and right sides of the page-->
-    <div class = "row"> 
+<div class = "container" style = "margin-top:30px">
+    <div class = "row">
       
       <!--
         left side
       -->
-      <div class = "col-sm-8">
+      <div class = "col-sm-9">
         <app-left-body [recipes] = "recipes" >
 
         </app-left-body>
@@ -68,13 +13,13 @@
       <!--
         Right side
       -->
-      <div class = "col-sm-4">
+      <div class = "col-sm-3">
         
         <app-right-body [recipes] = "recipes" >
 
         </app-right-body>
         
       </div>
-
-    </div>
+      
+  </div>
 </div>
