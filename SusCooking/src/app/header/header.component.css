@@ -4,13 +4,19 @@
     
 }
 
+
+
 @media only screen and (max-width: 979px) {
     .navbar{
         margin-top: -55px;
     }
+    
 }
+
+
 .navbar a{
     font-size: 25px !important;
+    color:black;
     }
 .recipe-container-dropdown{
     position: absolute;
