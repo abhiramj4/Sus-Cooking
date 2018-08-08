@@ -16,9 +16,7 @@
 
 @media only screen and (max-width:400px){
     .carousel-inner{
-        width:400px;
-        height: 200px !important;
-        overflow: hidden;
+        display: none;
     }
 }
 
